@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblioteca de relatos</title>
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f4f0e7;
+  color: #303c32;
+  font-family: Georgia, serif;
+}
+
+header {
+  text-align: center;
+  padding: 65px 20px 50px;
+  background: #263d32;
+  color: #f7f0df;
+}
+
+header h1 {
+  font-size: clamp(32px, 7vw, 48px);
+  margin: 0 0 15px;
+}
+
+header p {
+  max-width: 550px;
+  margin: auto;
+  line-height: 1.7;
+  color: #d9dfd1;
+}
+
+main {
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 0 18px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.audio-card {
+  background: #fffdf7;
+  border: 1px solid #ded8c8;
+  border-radius: 14px;
+  padding: 23px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 12px #263d3210;
+}
+
+.number {
+  color: #8b7650;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 1.4;
+  margin: 10px 0 18px;
+  font-weight: normal;
+}
+
+audio {
+  width: 100%;
+  height: 42px;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 15px;
+  background: #263d32;
+  color: #e9e2d1;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Biblioteca de relatos</h1>
+  <p>Un espacio para escuchar, descubrir y preservar historias a través de la palabra y la memoria.</p>
+</header>
+
+<main>
+  <div class="intro">
+    <p>Te invitamos a recorrer estos relatos.
+    Elige una historia y disfruta de su escucha.</p>
+  </div>
+
+  <section class="audio-card">
+    <span class="number">RELATO 01</span>
+    <h2>Semillas del origen y aliento de la selva</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138801.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section class="audio-card">
+    <span class="number">RELATO 02</span>
+    <h2>Arterias del Delta y memoria del agua</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138802.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section class="audio-card">
+    <span class="number">RELATO 03</span>
+    <h2>El aliento vegetal y la voz del sanador</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138803.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section class="audio-card">
+    <span class="number">RELATO 04</span>
+    <h2>Juramento de cumbre y valle</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138804.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section class="audio-card">
+    <span class="number">RELATO 05</span>
+    <h2>La palabra nombrada y el espejo colonial</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138805.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section class="audio-card">
+    <span class="number">RELATO 06</span>
+    <h2>Llama intacta contra el despojo</h2>
+    <audio controls preload="none">
+      <source src="1_4918406391997138806.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+</main>
+
+<footer>
+  Biblioteca de relatos · Un espacio para la memoria y la palabra
+</footer>
+
+</body>
+</html>
